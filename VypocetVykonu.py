@@ -7,6 +7,7 @@ if p == 0 and u == 0 and i == 0:
     print("Prosím, zadej 2 čísla jejich hodnota není 0. ")
 elif p == 0 and u == 0 or u == 0 and i == 0 or p == 0 and i == 0:
     print("Zadej ještě jedno číslo. ")
+#Počítání neznámé a vytištění jejího výsledku
 else:
     if p == 0:
         print(u, " V x ", i, " A= ", u*i, " W. ")

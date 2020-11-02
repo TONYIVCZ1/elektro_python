@@ -1,7 +1,7 @@
 #Zadání hodnot. Za neznámou dosaď 0. 
 p = float(input("Zadej Výkon ve W: "))
 u = float(input("Zadej napětí ve V: "))
-i = float(input)"Zadej proud v A: "))
+i = float(input("Zadej proud v A: "))
 #Zjištění neznámé
 if p == 0 and u == 0 and i == 0: 
     print("Prosím, zadej 2 čísla jejich hodnota není 0. ")
